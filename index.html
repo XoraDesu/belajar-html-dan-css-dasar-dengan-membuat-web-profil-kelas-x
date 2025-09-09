@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Kelas X</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #00033a;
+      font-family: 'Poppins', sans-serif;
+      color: #ffffff;
+      padding: 30px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #d2ab17;
+      margin-bottom: 40px;
+      font-size: 2em;
+    }
+
+    .santri-row {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 30px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .santri-card {
+      background-color: #163473;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      padding: 15px;
+      width: 350px;
+      animation: fadeInUp 1s ease forwards;
+      opacity: 0;
+      transition: transform 0.5s ease;
+    }
+
+    .santri-card:hover {
+      transform: scale(1.05);
+      background-color: #162647;
+    }
+
+    .foto-santri {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-right: 15px;
+      border: 3px solid #d2ab17;
+      object-fit: cover;
+    }
+
+    .data-santri .nama {
+      font-size: 1.2em;
+      color: #d2ab17;
+      margin-bottom: 5px;
+    }
+
+    .data-santri p {
+      font-size: 0.95em;
+      margin: 2px 0;
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Profil Kelas X <br> Isinya Orang Random Semua!</h1>
+
+  <div class="santri-row">
+    <div class="santri-card">
+      <img src="Jaabir.JPG" class="foto-santri">
+      <div class="data-santri">
+        <h3 class="nama">Muhammad Jaabir Syaddad</h3>
+        <p>Cita-cita: -</p>
+        <p>Hobi: Membaca</p>
+      </div>
+    </div>
+
+    <div class="santri-card">
+      <img src="Lathief.JPG" class="foto-santri">
+      <div class="data-santri">
+        <h3 class="nama">Rizqi Lathief Wibowo</h3>
+        <p>Cita-cita: Masuk Surga</p>
+        <p>Hobi: Boxing, Muay Thai</p>
+      </div>
+    </div>
+
+    <div class="santri-card">
+      <img src="Jundi.JPG" class="foto-santri">
+      <div class="data-santri">
+        <h3 class="nama">Muhammad Jundi Al-Aqsha</h3>
+        <p>Cita-cita: Pengusaha</p>
+        <p>Hobi: Sepakbola, Renang</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="santri-row">
+    <div class="santri-card">
+      <img src="Naufal.JPG" class="foto-santri">
+      <div class="data-santri">
+        <h3 class="nama">Revi Naufal Firmansyah</h3>
+        <p>Cita-cita: CEO</p>
+        <p>Hobi: Ganguin Orang</p>
+      </div>
+    </div>
+
+    <div class="santri-card">
+      <img src="Ngawi.JPG" class="foto-santri">
+      <div class="data-santri">
+        <h3 class="nama">Muhammad Abdullah</h3>
+        <p>Cita-cita: Fullstack Developer</p>
+        <p>Hobi: Membaca</p>
+      </div>
+    </div>
+
+    <div class="santri-card">
+      <img src="Fakhrie.JPG" class="foto-santri">
+      <div class="data-santri">
+        <h3 class="nama">Fakrie Attallah El-Fathin</h3>
+        <p>Cita-cita: Pengusaha</p>
+        <p>Hobi: Sepakbola</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="santri-row">
+    <div class="santri-card">
+      <img src="Mumtaz.JPG" class="foto-santri">
+      <div class="data-santri">
+        <h3 class="nama">Naufal Mumtaz Adzaki</h3>
+        <p>Cita-cita: Programmer</p>
+        <p>Hobi: Membaca</p>
+      </div>
+    </div>
+
+    <div class="santri-card">
+      <img src="Fadly.JPG" class="foto-santri">
+      <div class="data-santri">
+        <h3 class="nama">Fadly Fairuz</h3>
+        <p>Cita-cita: Programmer</p>
+        <p>Hobi: Gym, Gaming</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
